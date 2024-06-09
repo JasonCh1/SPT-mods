@@ -284,16 +284,16 @@
       "GroundZeroBotLimit": 7
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
-      "LaboratoryBotLimit": 5,
+      "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 6,
       "ReserveBotLimit": 6,
       "ShorelineBotLimit": 6,
       "WoodsBotLimit": 7,
       "CustomsBotLimit": 6,
       "TarkovStreetsBotLimit": 6,
-      "GroundZeroBotLimit": 5
+      "GroundZeroBotLimit": 6
     }
   },
   {
@@ -311,16 +311,16 @@
       "GroundZeroBotLimit": 7
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
-      "LaboratoryBotLimit": 5,
+      "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 6,
       "ReserveBotLimit": 6,
       "ShorelineBotLimit": 6,
       "WoodsBotLimit": 7,
       "CustomsBotLimit": 6,
       "TarkovStreetsBotLimit": 6,
-      "GroundZeroBotLimit": 5
+      "GroundZeroBotLimit": 6
     }
   },
   {
@@ -338,16 +338,16 @@
       "GroundZeroBotLimit": 7
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
-      "LaboratoryBotLimit": 5,
+      "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 6,
       "ReserveBotLimit": 6,
       "ShorelineBotLimit": 6,
       "WoodsBotLimit": 7,
       "CustomsBotLimit": 6,
       "TarkovStreetsBotLimit": 6,
-      "GroundZeroBotLimit": 5
+      "GroundZeroBotLimit": 6
     }
   },
   {
@@ -365,16 +365,16 @@
       "GroundZeroBotLimit": 7
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
-      "LaboratoryBotLimit": 5,
+      "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 6,
       "ReserveBotLimit": 6,
       "ShorelineBotLimit": 6,
       "WoodsBotLimit": 7,
       "CustomsBotLimit": 6,
       "TarkovStreetsBotLimit": 6,
-      "GroundZeroBotLimit": 5
+      "GroundZeroBotLimit": 6
     }
   },
   {
@@ -392,16 +392,16 @@
       "GroundZeroBotLimit": 7
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
-      "LaboratoryBotLimit": 5,
+      "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 6,
       "ReserveBotLimit": 6,
       "ShorelineBotLimit": 6,
       "WoodsBotLimit": 7,
       "CustomsBotLimit": 6,
       "TarkovStreetsBotLimit": 6,
-      "GroundZeroBotLimit": 5
+      "GroundZeroBotLimit": 6
     }
   },
   {
