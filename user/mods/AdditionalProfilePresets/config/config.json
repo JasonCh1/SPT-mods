@@ -1,0 +1,12 @@
+{
+	"RemoveSPTEditions": true,
+	"EditionsToRemove": ["SPT Developer", "SPT Easy start", "SPT Zero to hero"],
+	"EnableStandardEdition": true,
+	"EnablePTEEdition": false,
+	"EnableEODEdition": true,
+	"EnableUnheardEdition": false,
+	"EnableAxemanEdition": false,
+	"EnableBossEdition": false,
+	"UseUnheardItemsPreview": true,
+	"Language": "en"
+}

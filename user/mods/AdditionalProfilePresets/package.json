@@ -1,12 +1,12 @@
 {
-    "name": "ZeroToHero++",
+    "name": "Additional Profile Presets",
     "version": "1.0.0",
     "main": "src/mod.js",
-    "license": "MIT",
+    "license": "Creative Commons BY-NC-ND 4.0",
     "author": "BoT",
-    "akiVersion": "~3.8",
+    "akiVersion": "3.8.x",
     "scripts": {
-        "setup": "npm -i",
+        "setup": "npm i",
         "build": "node ./packageBuild.ts"
     },
     "devDependencies": {
@@ -19,5 +19,9 @@
         "glob": "8.0.3",
         "tsyringe": "4.7.0",
         "typescript": "4.9.4"
-    }
+    },
+    "loadBefore": [],
+    "loadAfter": [
+        "Gear_Unheard_Items_preview"
+    ]
 }
