@@ -51,11 +51,9 @@ class Mod implements IPostDBLoadMod {
 				"Standard-HC", 
 				"Start with NOTHING except only a basic stash size (10x28), a bayonet 6Kh5/ER, and an Alpha secure container", 
 				"Старт без прокачки чего-либо, снаряжение: штык-нож 6х5/ER, подсумок Alpha)", 
-				"SPT Zero to hero", 
+				"Standard", 
 				"./preset_info/standard_bear.json", 
-				"./preset_info/standard_usec.json", 
-				"./traders/traders_std_lb.json", 
-				"./hideout/hideout_std.json"
+				"./preset_info/standard_usec.json"
 			);
 		}
 		if (config.EnablePTEEdition) 
@@ -65,11 +63,9 @@ class Mod implements IPostDBLoadMod {
 				"PtE-HC", 
 				"Start with NOTHING except only a large stash size (10x48), a Voodoo tomahawk, and a Beta secure container", 
 				"Старт без прокачки чего-либо, снаряжение: томагавк Voodoo, подсумок Beta", 
-				"SPT Zero to hero", 
+				"Prepare To Escape", 
 				"./preset_info/pte.json", 
-				"./preset_info/pte.json", 
-				"./traders/traders_pte_eod.json", 
-				"./hideout/hideout_pte.json"
+				"./preset_info/pte.json"
 			);
 		}
 		if (config.EnableEODEdition) 
@@ -79,11 +75,9 @@ class Mod implements IPostDBLoadMod {
 				"EoD-HC", 
 				"Start with NOTHING except only a huge stash size (10x68), a Kiba tomahawk, an Alpha armband, and a Gamma secure container", 
 				"Старт без прокачки чего-либо, снаряжение: томагавк Kiba, повязка Альфа, подсумок Gamma", 
-				"SPT Zero to hero", 
+				"Edge Of Darkness", 
 				"./preset_info/eod.json", 
-				"./preset_info/eod.json", 
-				"./traders/traders_pte_eod.json", 
-				"./hideout/hideout_eod.json"
+				"./preset_info/eod.json"
 			);
 		}
 		if (config.EnableUnheardEdition) 
@@ -94,11 +88,9 @@ class Mod implements IPostDBLoadMod {
 					"TUE-HC", 
 					"Start without any advancements, starting gear: Kukri, Unheard armband, TUE pockets, Gamma secure container", 
 					"Старт без прокачки чего-либо, снаряжение: кукри, повязка Unheard, увеличенные карманы из TUE, подсумок Gamma", 
-					"SPT Zero to hero", 
+					"Edge Of Darkness", 
 					"./preset_info/tue.json", 
-					"./preset_info/tue.json", 
-					"./traders/traders_pte_eod.json", 
-					"./hideout/hideout_eod.json"
+					"./preset_info/tue.json"
 				);
 			}
 			else
@@ -108,11 +100,9 @@ class Mod implements IPostDBLoadMod {
 					"TUE-HC", 
 					"Start without any advancements, starting gear: Kiba tomahawk, Alpha armband, TUE pockets, Gamma secure container", 
 					"Старт без прокачки чего-либо, снаряжение: томагавк Kiba, повязка Альфа, увеличенные карманы из TUE, подсумок Gamma", 
-					"SPT Zero to hero", 
+					"Edge Of Darkness", 
 					"./preset_info/tue_standalone.json", 
-					"./preset_info/tue_standalone.json", 
-					"./traders/traders_pte_eod.json", 
-					"./hideout/hideout_eod.json"
+					"./preset_info/tue_standalone.json"
 				);
 			}
 		}			
@@ -125,11 +115,9 @@ class Mod implements IPostDBLoadMod {
 					"TT-HC", 
 					"Start without any advancements, starting gear: Antique axe, Unheard armband, smaller pockets, 15k RUB, LIKE waist band", 
 					"Старт без прокачки чего-либо, снаряжение: Антикварный топор, повязка Unheard, маленькие карманы, 15к RUB, поясная сумочка LIKE", 
-					"SPT Zero to hero", 
+					"Edge Of Darkness", 
 					"./preset_info/hatchet.json", 
-					"./preset_info/hatchet.json", 
-					"./traders/traders_pte_eod.json", 
-					"./hideout/hideout_eod.json"
+					"./preset_info/hatchet.json"
 				);
 			}
 			else
@@ -139,11 +127,9 @@ class Mod implements IPostDBLoadMod {
 					"TT-HC", 
 					"Start without any advancements, starting gear: Antique axe, smaller pockets, 15k RUB, LIKE waist band", 
 					"Старт без прокачки чего-либо, снаряжение: Антикварный топор, маленькие карманы, 15к RUB, поясная сумочка LIKE", 
-					"SPT Zero to hero", 
+					"Edge Of Darkness", 
 					"./preset_info/hatchet_standalone.json", 
-					"./preset_info/hatchet_standalone.json", 
-					"./traders/traders_pte_eod.json", 
-					"./hideout/hideout_eod.json"
+					"./preset_info/hatchet_standalone.json"
 				);
 			}
 		}
@@ -154,11 +140,9 @@ class Mod implements IPostDBLoadMod {
 				"BOSS-HC", 
 				"Start without any advancements, starting gear: Taiga, DEADSKUL armband, gigantic pockets, 1kk RUB, Kappa secure container", 
 				"Старт без прокачки чего-либо, снаряжение: Тайга, повязка DEADSKUL, гигантские карманы, 1кк RUB, подсумок Kappa", 
-				"SPT Zero to hero", 
+				"Edge Of Darkness", 
 				"./preset_info/boss.json", 
-				"./preset_info/boss.json", 
-				"./traders/traders_pte_eod.json", 
-				"./hideout/hideout_eod.json"
+				"./preset_info/boss.json"
 			);
 		}
 		
@@ -191,24 +175,16 @@ class Mod implements IPostDBLoadMod {
 							localeValueRU: string, 
 							sourceProfileName: string, 
 							bearInventoryDirectory: string, 
-							usecInventoryDirectory: string,
-							traderStandingDirectory: string,
-							hideoutUpgradesDirectory: string
+							usecInventoryDirectory: string
 						): void 
 	{
 		let profileToAdd = this.clonePreset(sourceProfileName, profileName);
 		
 		let bearInventoryData = JSON.parse(readFileSync(join(__dirname, bearInventoryDirectory), "utf-8"))
         let usecInventoryData = JSON.parse(readFileSync(join(__dirname, usecInventoryDirectory), "utf-8"))
-		let traderStanding = JSON.parse(readFileSync(join(__dirname, traderStandingDirectory), "utf-8"));
-		let hideoutUpgrades = JSON.parse(readFileSync(join(__dirname, hideoutUpgradesDirectory), "utf-8"));
 		
 		profileToAdd.bear.character.Inventory = bearInventoryData;
         profileToAdd.usec.character.Inventory = usecInventoryData;
-		profileToAdd.bear.trader = traderStanding;
-		profileToAdd.usec.trader = traderStanding;
-		profileToAdd.bear.character.Hideout = hideoutUpgrades;
-		profileToAdd.usec.character.Hideout = hideoutUpgrades;
 		
 		this.db.templates.profiles[profileName] = profileToAdd;
 	

@@ -1,7 +1,7 @@
 {
 	"RemoveSPTEditions": true,
 	"EditionsToRemove": ["SPT Developer", "SPT Easy start", "SPT Zero to hero"],
-	"EnableStandardEdition": true,
+	"EnableStandardEdition": false,
 	"EnablePTEEdition": false,
 	"EnableEODEdition": true,
 	"EnableUnheardEdition": false,
