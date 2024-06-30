@@ -40,7 +40,7 @@
     "IronSightFarMulti": 0.7,
     "IronSightScaleDistanceStart": 50.0,
     "IronSightScaleDistanceEnd": 100.0,
-    "CenterMassVal": 0.312,
+    "CenterMassVal": 0.3125,
     "AccuracySpreadMultiGlobal": 1.0,
     "FasterCQBReactionsGlobal": true,
     "PMCSAimForHead": false

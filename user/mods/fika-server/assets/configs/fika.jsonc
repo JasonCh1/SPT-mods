@@ -4,7 +4,7 @@
         "friendlyFire": true,
         "dynamicVExfils": false,
         "allowFreeCam": true,
-        "allowItemSending": true,
+        "allowItemSending": false,
         "forceSaveOnDeath": false
     },
     "server": {
