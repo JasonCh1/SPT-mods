@@ -13,6 +13,9 @@
 !BepInEx
 BepInEx/*
 
+# BepInEx patchers
+!BepInEx/patchers
+
 # BepInEx Plugins 
 !BepInEx/plugins
 
